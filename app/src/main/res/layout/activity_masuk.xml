@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FB9D76"
+    tools:context=".MasukActivity">
+
+    <LinearLayout
+        android:id="@+id/areaAtas"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/bg2"
+        android:orientation="vertical"
+        android:gravity="">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Halo Calon Siswa Baru, \nSilahkan masuk untuk menjalankan"
+            android:textColor="#FB9D76"
+            android:textSize="16dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/areaAtas"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button2"
+        android:drawableLeft="@drawable/email"
+        android:hint="masukan username"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/poppins"
+        android:paddingStart="8dp"
+        android:textColorHint="#fff"
+        android:textSize="12dp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button2"
+            android:drawableLeft="@drawable/password"
+            android:hint="masukan password"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/poppins"
+            android:inputType="textPassword"
+            android:paddingStart="8dp"
+            android:textColorHint="#fff"
+            android:textSize="12dp"/>
+
+        <Button
+            android:id="@+id/btnMasuk"
+            android:layout_width="135dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button1"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Masuk"
+            android:textColor="#fff"
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:text="Belum Punya Akun?"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+            <TextView
+                android:id="@+id/signUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:text="Daftar"
+                android:textColor="#2F70D1"
+                android:textSize="11dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

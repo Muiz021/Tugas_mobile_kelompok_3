@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "348566790620",
+    "firebase_url": "https://firmuis-default-rtdb.firebaseio.com",
+    "project_id": "firmuis",
+    "storage_bucket": "firmuis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348566790620:android:85bb0554fb948b612e6f19",
+        "android_client_info": {
+          "package_name": "com.example.crud_fitur2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348566790620-4tn7daced61pcnm5j4o6215bah446duc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1m-hBhZxRZUGhLAkJjWcnX-oft0nBI8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348566790620-4tn7daced61pcnm5j4o6215bah446duc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348566790620:android:15925fe745a7bbee2e6f19",
+        "android_client_info": {
+          "package_name": "com.example.crud_fitur2.helper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348566790620-4tn7daced61pcnm5j4o6215bah446duc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1m-hBhZxRZUGhLAkJjWcnX-oft0nBI8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348566790620-4tn7daced61pcnm5j4o6215bah446duc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
